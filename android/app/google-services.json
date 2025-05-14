@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1094537355938",
+    "project_id": "cadeli-18b35",
+    "storage_bucket": "cadeli-18b35.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094537355938:android:c3a5420e64bbdf1c3a2dfb",
+        "android_client_info": {
+          "package_name": "com.example.cadeli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAXEK0VPMNVSq0PsNa7y7rXrTVHHpX2Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
