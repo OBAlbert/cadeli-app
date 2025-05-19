@@ -33,6 +33,7 @@ dependencies:
   firebase_core: ^2.25.4
   firebase_auth: ^4.17.3
   cloud_firestore: ^4.14.0
+  provider: ^6.1.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -42,6 +43,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -62,7 +64,17 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/background/bottle_back.jpg
+    - assets/background/clear_back.jpg
+    - assets/background/clearflow_back.jpg
+    - assets/background/coral_back.jpg
+    - assets/products/bottle1.jpg
+    - assets/products/iteo6.jpg
+    - assets/products/keaos1.jpg
+    - assets/products/keo1.jpg
+    - assets/products/sn6.jpg
+    - assets/coral_vid.mp4
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
