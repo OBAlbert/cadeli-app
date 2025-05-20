@@ -12,7 +12,20 @@
           "package_name": "com.example.cadeli"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1094537355938-3rrp6ps9ah0fpbu5itju44ccvbh5slqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cadeli",
+            "certificate_hash": "ec631ad3926c684de1b5b9d5feeedf4c818905ce"
+          }
+        },
+        {
+          "client_id": "1094537355938-cf40e6o3njbfk1831rk7sogmpui57kuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBAXEK0VPMNVSq0PsNa7y7rXrTVHHpX2Qo"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094537355938-cf40e6o3njbfk1831rk7sogmpui57kuq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1094537355938-9trii6dnepvq6o7uhh86a4e4vbte2hvk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cadeli"
+              }
+            }
+          ]
         }
       }
     }

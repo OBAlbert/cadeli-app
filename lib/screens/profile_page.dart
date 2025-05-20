@@ -140,7 +140,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 borderRadius: BorderRadius.circular(10),
               ),
               child: const Center(
-                child: Text("Item", style: TextStyle(color: Colors.white)),
+                child: Text("Item", style: TextStyle(color:Color(0xFF060606))),
               ),
             ),
           ),
@@ -156,19 +156,19 @@ class _ProfilePageState extends State<ProfilePage> {
         sectionTitle("Order Summary"),
         const SizedBox(height: 10),
         ListTile(
-          leading: const Icon(Icons.shopping_bag, color: Colors.white),
-          title: const Text("Order History", style: TextStyle(color: Colors.white)),
+          leading: const Icon(Icons.shopping_bag, color: Colors.grey),
+          title: const Text("Order History", style: TextStyle(color: Color(0xFF060606))),
           subtitle: Text(
             "${userData?['orderHistory']?.length ?? 0} orders",
-            style: TextStyle(color: Colors.grey[400]),
+            style: TextStyle(color: Colors.black26),
           ),
         ),
         ListTile(
-          leading: const Icon(Icons.local_shipping, color: Colors.white),
-          title: const Text("Active Orders", style: TextStyle(color: Colors.white)),
+          leading: const Icon(Icons.local_shipping, color: Colors.grey),
+          title: const Text("Active Orders", style: TextStyle(color: Color(0xFF060606))),
           subtitle: Text(
             "${userData?['activeOrders']?.length ?? 0} in progress",
-            style: TextStyle(color: Colors.grey[400]),
+            style: TextStyle(color: Colors.black26),
           ),
         ),
       ],
@@ -190,7 +190,7 @@ class _ProfilePageState extends State<ProfilePage> {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               IconButton(
-                icon: const Icon(Icons.logout, color: Colors.white),
+                icon: const Icon(Icons.logout, color: Colors.grey),
                 onPressed: () async {
                   await FirebaseAuth.instance.signOut();
                   Navigator.pushReplacement(
